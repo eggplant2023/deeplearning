@@ -76,4 +76,4 @@ def category_class():
     return {'answer': c_getName(prediction[0]), 'percent': int(c_getPercent(prediction[0])*100)}
     
 if __name__ == '__main__':
-    app.run(host='localhost', port=5000, threaded=False)
+    app.run(host='52.78.130.186', port=5000, threaded=False)
